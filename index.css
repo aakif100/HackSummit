@@ -39,3 +39,15 @@ ul{
   body{
     background-color: #000;
   }
+  .image{
+    width: 40vw;
+    height: 100vh;
+    
+  }
+  @media only screen and (max-width: 680px) {
+    .image{
+        height: 300px;
+        width: 300px !important;
+        margin: 0 auto;
+    }
+  }
