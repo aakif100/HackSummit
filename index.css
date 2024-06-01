@@ -1,0 +1,34 @@
+
+ul{
+    display: inline;
+  }
+  .imgm1{
+    height: 3em;
+    margin-top: 100px;
+  }
+  .imgm2{
+    height: 3em;
+     animation: opacity 2s linear infinite;
+  }
+  .imgm3{
+    height: 3em;
+     animation: opacity1 2s linear infinite;
+  }
+  @keyframes opacity{
+    0%{opacity: 0;}
+    50%{opacity: 70%;}
+    100%{opacity: 0;}
+  }
+  @keyframes opacity1{
+    0%{opacity: 0;}
+    50%{opacity: 90%;}
+    100%{opacity: 0;}
+  }
+
+  .firstpage{
+    height: 100vh;
+  }
+
+  body{
+    background-color: #000;
+  }
