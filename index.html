@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./timer.css">
     <title>HackSummit</title>
 </head>
 <body>
@@ -33,8 +34,33 @@
           </div>
           </div>
 
+          <h1 class="gradient-text p-4 font-bold text-3xl">Registrations closes in</h1>
+
+          <!-- Timer Compoenent -->
+          <div class="timer-countdown text-gray-300 flex flex-row gap-2 ">
+            <div class="timer-days flex flex-col items-center">
+                <p id="days" class="text-lg font-bold"></p>
+                <span class="text-gray-400">Days</span>
+            </div>
+            <p>:</p>
+            <div class="timer-hours flex flex-col items-center">
+                <p id="hours" class="text-lg font-bold"></p>
+                <span class="text-gray-400">Hours</span>
+            </div>
+            <p>:</p>
+            <div class="timer-minutes flex flex-col items-center">
+                <p id="minutes" class="text-lg font-bold"></p>
+                <span class="text-gray-400">Minutes</span>
+            </div>
+            <p>:</p>
+            <div class="timer-seconds flex flex-col items-center">
+                <p id="seconds" class="text-lg font-bold"></p>
+                <span class="text-gray-400">Seconds</span>
+            </div>
+          </div>
+
           <div class="secondpage">
-          <!-- {/* Button COmpoenent */} -->
+          <!-- {/* Button Compoenent */} -->
           <div class="register">
             <a href="#">
               <button class='bg-green text-white m-16 py-2 px-8 border border-4 border-indigo-500 rounded-lg transition duration-500 hover:bg-indigo-500 hover:text-black text-lg font-bold'>Register for the Hackathon!</button>
@@ -46,6 +72,7 @@
       </div>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./timer.js"></script>
 
 </body>
 </html>
