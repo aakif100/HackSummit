@@ -30,7 +30,7 @@ ul{
   }
 
   .gradient-text {
-    background: linear-gradient(90deg, #fee3cf, #ec588a, #518cf5);
+    background: linear-gradient(90deg, #fee3cf, #A10167, #518cf5);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -44,10 +44,29 @@ ul{
     height: 100vh;
     
   }
-  @media only screen and (max-width: 680px) {
+
+
+.scrolldown{
+    position: absolute;
+    top: 60vh;
+}
+
+
+
+
+
+.image{
+    margin-top: -330px;
+}
+
+  @media only screen and (max-width: 780px) {
     .image{
-        height: 300px;
-        width: 300px !important;
+        /* height: 300px; */
+        width: 400px !important;
         margin: 0 auto;
+    }
+    .scrolldown{
+       position: absolute;
+       top: 50vh;
     }
   }
